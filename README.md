@@ -1,18 +1,28 @@
-# SeperetPulse Market Insights Dashboard
-
+[![Python](https://img.shields.io/badge/python-3.9+-blue)](#)
 ![Repo Size](https://img.shields.io/github/repo-size/denv3rr/Market_Insights_Dashboard)
+![GitHub Created At](https://img.shields.io/github/created-at/denv3rr/Market_Insights_Dashboard)
 ![Last Commit](https://img.shields.io/github/last-commit/denv3rr/Market_Insights_Dashboard)
 ![Issues](https://img.shields.io/github/issues/denv3rr/Market_Insights_Dashboard)
 ![License](https://img.shields.io/github/license/denv3rr/Market_Insights_Dashboard)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fseperet.com&label=seperet.com)
 
-- A lightweight, open-source market analysis dashboard designed for traders, analysts, and researchers.
-- Fetches live market data and displays interactive charts with technical indicators.
+<br>
 
-<br></br>
-<br></br>
+A lightweight, open-source market analysis dashboard.
+Fetches live market data and displays interactive charts with technical indicators.
+<br>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
+> [!NOTE]
+>
+> Work in progress.
+
+<br><br>
+
+<div>
+  <a href="https://seperet.com">
+    <img width="100" src=https://github.com/denv3rr/denv3rr/blob/main/IMG_4225.gif/>    
+  </a>
+</div>
 
 ## Features
 
@@ -64,7 +74,9 @@ To use stock symbol data from [Finnhub](https://finnhub.io):
     
 4. Alternatively, update the key directly in `core/api.py` if needed (not recommended - this file is not added to `.gitignore`).
 
-> ⚠️ **Note:** Some international exchanges require a paid plan with Finnhub.
+> [!NOTE]
+>
+> Some international exchanges require a paid plan with Finnhub.
 
 ### 4. Launch UI Dashboard
 
@@ -84,6 +96,7 @@ Or
 
 ---
 
+<!--
 ## Roadmap
 
 - Add drawing tools (trend lines, zones)
@@ -96,18 +109,13 @@ Or
 
 ## Reminders / To-Do
 
-- ⏳ Tab auto-close timeout if no confirmation
-- ⏳ Transition/fade animations
-- ⏳ Tab reordering support
-- ⏳ Dark/light mode toggle
-- ⏳ Sidebar hover & dropdown styling polish
-- ⏳ Improve tab confirmation UX (click-away, no flicker)
-- ⏳ Optional logging/export feature (CSV or JSON)
+- Tab auto-close timeout if no confirmation
+- Transition/fade animations
+- Tab reordering support
+- Dark/light mode toggle
+- Sidebar hover & dropdown styling polish
+- Improve tab confirmation UX (click-away, no flicker)
+- Optional logging/export feature (CSV or JSON)
 
 ---
-
-<div align="center">
-  <a href="https://seperet.com">
-    <img src="https://github.com/denv3rr/denv3rr/blob/main/Seperet_Slam_White.gif"/>
-  </a>
-</div>
+-->
