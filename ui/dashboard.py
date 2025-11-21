@@ -16,7 +16,7 @@ from core.indicators import get_indicator
 
 # ---- PAGE CONFIG ----
 st.set_page_config(
-    page_title="SeperetPulse",
+    page_title="MarketDashboard",
     page_icon=os.path.join("../..", "assets", "Seperet_NightVision_Slam.gif"),
     layout="wide"
 )

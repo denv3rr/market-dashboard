@@ -1,9 +1,9 @@
 [![Python](https://img.shields.io/badge/python-3.9+-blue)](#)
-![Repo Size](https://img.shields.io/github/repo-size/denv3rr/Market_Insights_Dashboard)
-![GitHub Created At](https://img.shields.io/github/created-at/denv3rr/Market_Insights_Dashboard)
-![Last Commit](https://img.shields.io/github/last-commit/denv3rr/Market_Insights_Dashboard)
-![Issues](https://img.shields.io/github/issues/denv3rr/Market_Insights_Dashboard)
-![License](https://img.shields.io/github/license/denv3rr/Market_Insights_Dashboard)
+![Repo Size](https://img.shields.io/github/repo-size/denv3rr/market-dashboard)
+![GitHub Created At](https://img.shields.io/github/created-at/denv3rr/market-dashboard)
+![Last Commit](https://img.shields.io/github/last-commit/denv3rr/market-dashboard)
+![Issues](https://img.shields.io/github/issues/denv3rr/market-dashboard)
+![License](https://img.shields.io/github/license/denv3rr/market-dashboard)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fseperet.com&label=seperet.com)
 
 <br>
@@ -41,8 +41,8 @@ Fetches live market data and displays interactive charts with technical indicato
 ### 1. Clone the Repo or Download ZIP
 
 ```bash
-git clone https://github.com/denv3rr/Market_Insights_Dashboard.git
-cd SeperetPulse
+git clone https://github.com/denv3rr/market-dashboard.git
+cd MarketDashboard
 ```
 
 ### 2. Install Requirements
