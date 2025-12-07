@@ -7,7 +7,6 @@
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fseperet.com&label=seperet.com)
 
 <br>
-
 A lightweight, open-source market analysis dashboard.
 Fetches live market data and displays interactive charts with technical indicators.
 <br>
@@ -28,11 +27,10 @@ Fetches live market data and displays interactive charts with technical indicato
 
 - Fetch live stock data via Yahoo Finance and Finnhub.io
 - Interactive candlestick charts (Plotly)
+- Ticker search, timeframe, and interval sidebar
 - Toggle overlays like:
   - 20-day MA (Moving Average)
   - RSI (Relative Strength Index)
-- Sidebar input for custom ticker, timeframe, and interval
-- Drag/drop-ready preset support (coming soon)
 
 ---
 
@@ -42,7 +40,7 @@ Fetches live market data and displays interactive charts with technical indicato
 
 ```bash
 git clone https://github.com/denv3rr/market-dashboard.git
-cd MarketDashboard
+cd market-dashboard
 ```
 
 ### 2. Install Requirements
@@ -60,25 +58,32 @@ pip install -r requirements.txt
 
 ### 3. Set Up Finnhub.io API Key
 
-To use stock symbol data from [Finnhub](https://finnhub.io):
+> [!NOTE]
+>
+> Although the basic Finnhub.io service is currently free,
+> some international exchanges require a paid plan.
+
+#### To use stock symbol data from [Finnhub](https://finnhub.io):
 
 1. Create a free account at: [https://finnhub.io/register](https://finnhub.io/register)
    
-2. Go to your [API dashboard](https://finnhub.io/dashboard) to get your token.
+2. Then go to your [API dashboard](https://finnhub.io/dashboard) to get your API key/token.
+
+#### Update your `.env.example` file and add your API key
+
+3. Change the file name from `.env.example` to just `.env`
    
-3. Add this token to your environment variables or `.env` file (recommended - API keys will not be commited from this file):
+4. Add your API key to that `.env` file:
    
     ```bash
     export FINNHUB_API_KEY=your_api_key_here
     ```
-    
-4. Alternatively, update the key directly in `core/api.py` if needed (not recommended - this file is not added to `.gitignore`).
 
-> [!NOTE]
+> [!WARNING]
 >
-> Some international exchanges require a paid plan with Finnhub.
+> Remember not to commit this file if you clone this.
 
-### 4. Launch UI Dashboard
+### 4. Launch Dashboard
 
 - ```bash
   python app.py
@@ -90,32 +95,8 @@ or
   streamlit run ui/dashboard.py
   ```
 
-Or
+Windows only:
 
 - double-click `run_dashboard.bat` (Windows only).
 
 ---
-
-<!--
-## Roadmap
-
-- Add drawing tools (trend lines, zones)
-- Enable backtesting custom strategies
-- Import/export preset overlays
-- Real-time data streaming (WebSockets)
-- Modular quant strategy plugin system
-
----
-
-## Reminders / To-Do
-
-- Tab auto-close timeout if no confirmation
-- Transition/fade animations
-- Tab reordering support
-- Dark/light mode toggle
-- Sidebar hover & dropdown styling polish
-- Improve tab confirmation UX (click-away, no flicker)
-- Optional logging/export feature (CSV or JSON)
-
----
--->
