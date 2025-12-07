@@ -217,7 +217,7 @@ if st.session_state.selected_tickers:
                 xaxis_rangeslider_visible=False,
                 margin=dict(l=0, r=0, t=30, b=0)
             )
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width='stretch')
 
             if active_indicators.get("rsi", False):
                 rsi_func = get_indicator("rsi")
