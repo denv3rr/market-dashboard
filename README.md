@@ -95,10 +95,4 @@ or
 - ```bash
   streamlit run ui/dashboard.py
   ```
-
-Windows only:
-
-- double-click `run_dashboard.bat` (Windows only).
-
 ---
-
