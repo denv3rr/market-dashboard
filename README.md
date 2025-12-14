@@ -6,16 +6,17 @@
 ![License](https://img.shields.io/github/license/denv3rr/market-dashboard)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fseperet.com&label=seperet.com)
 
-<br>
 A lightweight, open-source market analysis dashboard.
 Fetches live market data and displays interactive charts with technical indicators.
-<br>
+<br><br>
 
 > [!NOTE]
 >
 > Work in progress.
+>
+> See [this repo](https://github.com/denv3rr/clear) for CLI.
 
-<br><br>
+<br><br><br>
 
 <div>
   <a href="https://seperet.com">
@@ -100,3 +101,4 @@ Windows only:
 - double-click `run_dashboard.bat` (Windows only).
 
 ---
+
